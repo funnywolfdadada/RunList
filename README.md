@@ -1,7 +1,7 @@
 # RunList  
 一个简单的线程切换类，链式调用，实现简单的线程切换与参数传递。  
 例：  
-`  
+```
         RunList.runOnBackground(new RunList.IRun<Integer, String>() {  
                     @Override  
                     public String run(Integer integer) {  
@@ -35,4 +35,4 @@
                     }
                 })
                 .start();
-`
+```
