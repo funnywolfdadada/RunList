@@ -63,10 +63,6 @@ public class RunList<P, R> implements Runnable {
         }
     }
 
-    public void stop() {
-
-    }
-
     @Override
     public void run() {
         boolean onMain = Looper.getMainLooper().isCurrentThread();
